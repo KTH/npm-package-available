@@ -1,0 +1,23 @@
+{
+  "name": "npm-package-available",
+  "version": "1.0.0",
+  "description": "Check if packages specified have newer versions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KTH/npm-package-available.git"
+  },
+  "keywords": [
+    "npm-check-updates",
+    "evolene"
+  ],
+  "author": "github.com/patricjansson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KTH/npm-package-available/issues"
+  },
+  "homepage": "https://github.com/KTH/npm-package-available#readme"
+}

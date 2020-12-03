@@ -1,0 +1,9 @@
+version: "3.6"
+
+services:
+  webapp:
+    build: .
+    tty: True
+    volumes:
+      - /Users/patricjansson/dev/kth/gita.sys.kth.se/npm-package-available/test/package.json:/package.json:ro
+    
