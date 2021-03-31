@@ -1,5 +1,3 @@
 #!/bin/sh
 
-#ID=`docker build --quiet --tag npm-package-available .`
-
-docker run -v $(pwd)/test/package.json:/package.json npm-package-available
+docker run --volume $(pwd)/test/package.json:/package.json --tty `docker build --quiet --tag npm-package-available .`
