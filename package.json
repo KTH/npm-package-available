@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "clean": "rm -rf ./node_modules && rm -f package-lock.json",
-    "package-update": "git pull && npm run clean && ncu -u && npm install && npm run test ",
-    "test": "test"
+    "package-update": "git pull && npm run clean && ncu -u && npm install",
   },
   "repository": {
     "type": "git",
