@@ -4,6 +4,7 @@
   "description": "Check if packages specified have newer versions.",
   "main": "index.js",
   "scripts": {
+    "package-update": "git pull && npm run clean && ncu -u && npm install && npm run test ",
     "test": "test"
   },
   "repository": {
