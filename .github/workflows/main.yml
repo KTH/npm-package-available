@@ -21,6 +21,5 @@ jobs:
         env:
           SLACK_CHANNELS: "#team-pipeline-build"
           NPM_UPDATES_AVAILABLE: True
-          PUSH_PUBLIC: True
         run: |
           ${{ secrets.EVOLENE_RUN_COMMAND }}
